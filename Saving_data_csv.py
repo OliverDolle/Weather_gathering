@@ -47,5 +47,3 @@ with open(csv_path, 'a', newline='') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
     writer.writerow(data_csv)
-
-a = input()
